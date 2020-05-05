@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dropdown-item {
+	display: block;
+	width: 100%;
+	padding: 0.25rem 1.5rem;
+	clear: both;
+	font-weight: 400;
+	color: #3d5367;
+	text-align: inherit;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+}
+
+.navbar-nav .dropdown-menu {
+	position: static;
+	float: none;
+	background-color: #fffdef;
+	font-family: 'GlacialIndifferenceRegular';
+	color: #3d5367;
+}
+
+.navbar-dark .navbar-toggler {
+	color: rgba(255, 255, 255, 0.5);
+	border-color: rgba(255, 255, 255, 0.0);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-text-fill-color: #3d5367 !important;
+}
+
+input[type="text"] {
+	font-family: 'GlacialIndifferenceRegular';
+}
+
+#daysLeft {
+	font-size: 15px;
+}
+
+#needs {
+	font-size: 20px;
+	color: #fffdef;
+	font-family: 'GlacialIndifferenceRegular';
+}
+
+#careNames {
+	font-size: 50px;
+}
+
+#sign {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+#navbar {
+	background-color: #c17e70;
+	border-color: #c17e70;
+}
+
+.navbar-light .navbar-toggler {
+	color: #fffdef;
+	border-color: rgba(0, 0, 0, 0.0);
+}
+
+/* .navbar-toggler-icon  {
+	border-color:#c17e70 !important;
+} */
+
+#signBtn,
+#loginBtn,
+#rgstrButton,
+#choosePlant,
+#nameBtn {
+	background-color: #3d5367;
+	border-color: #3d5367;
+	text-decoration: none !important;
+	font-family: 'GlacialIndifferenceRegular';
+	color: #fffdef;
+}
+
+#trash {
+	background-color: #c17e70 !important;
+	border-color: #c17e70 !important;
+}
+
+ion-icon {
+	color: #914c3d;
+	font-size: 15px;
+}
+
+#shadow-root :host(.icon-large) {
+	font-size: 50px !important;
+}
+
+
+#body,
+html,
+main,
+nav {
+	background-color: #c17e70 !important;
+	border-color: #c17e70 !important;
+}
+
+.pb-4,
+.py-4,
+.pt-4 {
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+
+}
+
+#card,
+#header,
+#pickPlant {
+	background-color: #c17e70;
+	border-color: #c17e70;
+	font-family: 'GlacialIndifferenceRegular';
+	color: #fffdef;
+
+
+}
+
+.card-body {
+	padding: 1rem;
+}
+
+#registerBody,
+center {
+	background-color: #c17e70;
+	border-color:  !important;
+
+}
+
+#signUpRegister {
+	background-color: #c17e70;
+	/* border-color:  !important; */
+	font-family: 'GlacialIndifferenceRegular';
+
+
+}
+
+#email,
+#password {
+	background-color: #fffdef;
+	border-color: #fffdef;
+}
+
+#confirm,
+#name {
+	background-color: #fffdef;
+	border-color: #fffdef;
+}
+
+#nickName {
+
+	border-color: black;
+	padding-right: 0px;
+	font-size: 20px;
+}
+
+#nameLabel,
+#emailLabel,
+#passwordLabel,
+#confirmLabel,
+.nav-link {
+	/* color: #fffdef !important; */
+	font-weight: bold;
+}
+
+#forgot,
+#signUp,
+#or {
+	font-size: 12px;
+	color: #fff9e9;
+}
+
+#plog {
+	font-family: 'GlacialIndifferenceRegular';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 50px;
+	color: #fffdef;
+}
+
+
+#desktop {
+	display: none;
+}
+
+@media only screen and (min-width : 1224px) {
+	#app {
+		display: none;
+	}
+
+	#desktop {
+		display: block;
+		background-color: white;
+		height: 100vh;
+		width: 100vw;
+
+
+	}
+
+	#phones {
+		padding-left: 15vw;
+		margin-top: 12.5vh;
+		height: 75vh;
+		width: auto;
+	}
+
+	#calltoaction {
+		margin-top: 28vh;
+		height: 40vh;
+		width: auto;
+
+	}
+}
