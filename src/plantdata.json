@@ -9,7 +9,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": "https://www.almanac.com/plant/aloe-vera"
 	},
 	{
 		"id": 1,
@@ -21,7 +21,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": "https://www.almanac.com/plant/pothos"
 	},
 	{
 		"id": 2,
@@ -33,7 +33,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": "https://www.proflowers.com/blog/dracaena-care"
 	},
 	{
 		"id": 3,
@@ -45,7 +45,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 4,
@@ -57,7 +57,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 5,
@@ -69,7 +69,7 @@
 		"light": "full sun, part sun",
 		"watering": "",
 		"soil": "sandy",
-		"almanac-link": "https://www.almanac.com/plant/jade-plants"
+		"almanacLink": "https://www.almanac.com/plant/jade-plants"
 	},
 	{
 		"id": 6,
@@ -81,7 +81,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": "https://www.almanac.com/plant/peace-lilies"
 	},
 	{
 		"id": 7,
@@ -93,7 +93,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": "https://www.almanac.com/plant/spider-plants"
 	},
 	{
 		"id": 8,
@@ -105,7 +105,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 9,
@@ -117,7 +117,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 10,
@@ -129,7 +129,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 11,
@@ -141,7 +141,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": "https://www.almanac.com/plant/snake-plants"
 	},
 	{
 		"id": 12,
@@ -153,7 +153,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 13,
@@ -165,7 +165,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 14,
@@ -177,7 +177,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 15,
@@ -189,7 +189,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 16,
@@ -201,7 +201,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 17,
@@ -213,7 +213,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 18,
@@ -225,7 +225,7 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": ""
 	},
 	{
 		"id": 19,
@@ -237,6 +237,6 @@
 		"light": "",
 		"watering": "",
 		"soil": "",
-		"almanac-link": ""
+		"almanacLink": "https://www.guide-to-houseplants.com/snake-plant.html"
 	}
 ]
