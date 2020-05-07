@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from "./Navbar";
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 import Home from "./Home"
-import New from "./New"
+import New from "./Plants"
 
 function Wrapper() {
 	return (

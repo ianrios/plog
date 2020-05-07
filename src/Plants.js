@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Button, Modal, ModalHeader, ModalBody, ModalFooter, Input } from 'reactstrap';
-import {useHistory} from "react-router-dom"
+import { useHistory } from "react-router-dom"
 import Plant from "./Plant"
-
-import plantdata from "./plantdata.json";
-
+import plantData from "./plantData.json";
 
 function Plants() {
 	const [plantIdx, setPlantIdx] = useState(-1)
@@ -18,7 +16,7 @@ function Plants() {
 		setModal(!modal)
 	};
 
-	const mappedPlants = plantdata.map((i, j) => {
+	const mappedPlants = plantData.map((i, j) => {
 		return (
 			<Col sm="4" onClick={() => toggleOpen(j)} key={j}>
 				<h3>{i.name}</h3>
@@ -28,7 +26,7 @@ function Plants() {
 	})
 
 	const history = useHistory();
-	
+
 	const addPlant = () => {
 		console.log()
 		let plantarray = JSON.parse(window.localStorage.getItem("plantArray"))
@@ -60,8 +58,8 @@ function Plants() {
 					<ModalHeader toggle={toggleClosed}>New Plant</ModalHeader>
 					<ModalBody>
 						<Col className="text-center">
-							<h3>{plantdata[plantIdx].name}</h3>
-							<img src={"/img/" + plantdata[plantIdx].img} alt={plantdata[plantIdx].name} className="img-fluid" />
+							<h3>{plantData[plantIdx].name}</h3>
+							<img src={"/img/" + plantData[plantIdx].img} alt={plantData[plantIdx].name} className="img-fluid" />
 							<Input type="text" value={name} onChange={e => setName(e.target.value)} placeholder="give me a name!" />
 						</Col>
 					</ModalBody>
