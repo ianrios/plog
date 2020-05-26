@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Container, Row, Col, Button, Progress } from "reactstrap"
 import { Link } from "react-router-dom"
-import plantData from "./plantData.json";
+import plantData from "./data/plantData.json";
 
 function waterStatus(value) {
 	let status = ""

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Button, Modal, ModalHeader, ModalBody, ModalFooter, Input } from 'reactstrap';
 import { useHistory } from "react-router-dom"
-import Plant from "./Plant"
-import plantData from "./plantData.json";
+import Plant from "./utilities/Plant"
+import plantData from "./data/plantData.json";
 
 function Plants() {
 	const [plantIdx, setPlantIdx] = useState(-1)
