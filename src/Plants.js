@@ -18,10 +18,12 @@ function Plants() {
 
 	const mappedPlants = plantData.map((i, j) => {
 		return (
-			<Col sm="4" onClick={() => toggleOpen(j)} key={j}>
+			<Col sm="4" onClick={() => toggleOpen(j)} key={j} className="text-center d-flex flex-column mb-5">
 				<h3>{i.name}</h3>
-				<img src={"/img/" + i.img} alt={i.name} />
+				<img className="w-50 mx-auto flex-fill" src={"/img/" + i.img} alt={i.name} />
 			</Col>
+
+
 		)
 	})
 

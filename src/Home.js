@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
-import { Container, Row, Col, Button, Progress } from "reactstrap"
+import React, { useState } from 'react'
+import { Container, Row, Col, Button, Progress, Modal, ModalBody, ModalHeader, Input, ModalFooter } from "reactstrap"
 import { Link } from "react-router-dom"
+import Plant from "./utilities/Plant"
 import plantData from "./data/plantData.json";
 
 function waterStatus(value) {
@@ -84,9 +85,9 @@ function Home() {
 			console.log(i)
 			const num = .90
 			return (
-				<Col key={j} sm="4" className="text-center">
+				<Col key={j} sm="4" className="text-center d-flex flex-column mb-5	">
 					<h3>{i.name}</h3>
-					<img src={"/img/" + plantData[i.plantID].img} alt={i.name} />
+					<img className="w-50 mx-auto flex-fill" src={"/img/" + plantData[i.plantID].img} alt={i.name} />
 					<Progress animated value={num * 100} color={num > .25 ? null : num > .05 ? "warning" : "danger"} >{waterStatus(num)}</Progress>
 				</Col>
 			)
