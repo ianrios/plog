@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navbar from "./Navbar";
 import { BrowserRouter, Switch, Route } from "react-router-dom"
+import Navbar from "./Navbar";
 import Home from "./Home"
 import New from "./New"
+import AxiosTest from "./AxiosTest"
+import './App.css';
 
 function Wrapper() {
 	return (
@@ -16,6 +16,9 @@ function Wrapper() {
 				</Route>
 				<Route path="/new">
 					<New />
+				</Route>
+				<Route path="/test">
+					<AxiosTest />
 				</Route>
 			</Switch>
 		</div>
